@@ -1,0 +1,290 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family:  Century Gothic;;
+}
+header
+{
+	background-image: url(./Image/FLcxpZ.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	position: relative;
+}
+.menu ul
+{
+	float: right;
+	list-style-type: : none;
+}
+.menu li
+{
+
+	font-size: 20px;
+	display: inline-block;
+	list-style-type: none;
+	margin-bottom: 40px;
+	margin-right: 10px;
+	margin-top: 10px;
+	border:1px solid transparent;
+	border-radius: 2px;
+	box-shadow: 20px;
+}
+.menu li a
+{
+	color: black;
+	margin: 10px;
+	border-radius: 10px;
+	transition: 0.6 ease;
+}
+.menu li a:hover
+{
+	background-color: #fff;
+	color: red;
+	border-radius: 3px;
+
+}
+.logo img
+{
+	float: left;
+	margin-bottom: 50px;
+	position: absolute;
+	bottom: 68%;
+
+}
+.main
+{
+	position: absolute;
+	margin-left: 450px;
+	margin-top: 20px;
+}
+input
+{
+	width: 300px;
+	height: 30px;
+	border-radius: 10px;
+}
+/*.main2
+{
+	position: absolute;
+	top: 68%;
+	left: 32%;
+}
+.main2 h1
+{
+	text-align: center;
+	color:  #ff4d94;
+	font-size:30px;
+}
+.catg li 
+{
+	list-style: none;
+	background-color:#595959;
+	display: inline-block;
+	border:4px solid transparent;
+	border-radius: 6px;
+	font-size: 20px;
+}
+.catg li a
+{
+	color: #ff4d94;
+	transition: 0.6 ease;
+}
+.catg li a:hover
+{
+	background-color: #fff;
+	border-radius: 3px;
+	border-radius: 6px;
+}*/
+.list
+{
+	background-color: #595959;
+	position: sticky;
+	top: 0px;
+}
+.lists h1
+{
+	text-align: center;
+}
+.cat li
+{
+	list-style: none;
+	display: inline-block;
+	position: relative;
+	left: 300px;
+	border:4px solid transparent;
+	border-radius: 6px;
+	font-size: 20px;
+}
+.cat li a
+{
+    color: #ff4d94;
+	transition: 0.6 ease;
+}
+.cat li a:hover
+{
+	background-color: #fff;
+	border-radius: 6px;
+}
+
+
+
+
+
+
+
+/*category section codd*/
+
+.cpic h1
+{
+	margin-top: 90px;
+	margin-left: 70px;
+	font-weight: bold;
+	font-family: fantasy;
+}
+.cpic span
+{
+	margin-right: 100px;
+}
+.cpic .first
+{
+	height:100%;
+width:23%;
+float:left;
+margin-left:2.5%;
+overflow:hidden;
+position:relative;
+}
+.cpic .first img
+{
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+.first div
+{
+	font-size: 20px;
+	color: red;
+	font-weight: bold;
+	position: absolute;
+	top: 160px;
+	left: 0px;
+	width: 100%;
+	text-align: center;
+	background-color: black;
+	opacity: .8;
+}
+.cpic .second 
+{
+	height: 100%;
+	width: 23%;
+	float: left;
+	margin-left: 1%;
+overflow:hidden;
+position:relative;
+}
+.cpic .second img
+{
+	height: 100%;
+	width: 100%;
+}
+.second div
+{
+	font-size: 20px;
+	color: red;
+	font-weight: bold;
+	position: absolute;
+	top: 160px;
+	left: 0px;
+	width: 100%;
+	text-align: center;
+	background-color: black;
+	opacity: .8;
+}
+.cpic .third
+{
+	height: 100%;
+	width: 24.5%;
+	float: left;
+	margin-left:1%;
+overflow:hidden;
+position:relative;
+}
+.cpic .third img
+{
+	height: 100%;
+	width: 100%;
+}
+.third div
+{
+	font-size: 20px;
+	color: red;
+	font-weight: bold;
+	position: absolute;
+	top: 160px;
+	left: 0px;
+	width: 100%;
+	text-align: center;
+	background-color: black;
+	opacity: .8;
+}
+.cpic .fourth
+{
+	height: 100%;
+	width: 22.5%;
+	float: right;
+	margin-right:1.5%;
+	overflow:hidden;
+position:relative;
+}
+.cpic .fourth img
+{
+	height: 100%;
+	width: 100%;
+}
+.fourth div
+{
+	font-size: 20px;
+	color: red;
+	font-weight: bold;
+	position: absolute;
+	top: 160px;
+	left: 0px;
+	width: 100%;
+	text-align: center;
+	background-color: black;
+	opacity: .8;
+}
+.abt
+{
+	background-color: #595959;
+	margin-top: 20%;
+}
+.key 
+{
+	color: white;
+}
+.key h1
+{
+	margin-left: 20%;
+}
+.key2
+{
+	color: white;
+}
+.key2 h1
+{
+	margin-left: 60%;
+}
+.key2 h4
+{
+     margin-left: 60%;
+}
+.key2 p
+{
+     margin-left: 60%;
+}
+.key2 i
+{
+	margin-left: 60%;
+}

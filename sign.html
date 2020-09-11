@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signin/signout</title>
+		<link rel="stylesheet" type="text/css" href="./CSS/login.css">
+		<script type="text/javascript">
+			function display()
+			{
+				var name=sg.uname.value;
+				var pass=sg.pass.value;
+				if(name="")
+				{
+					alert("name must br filled out");
+					return false;
+				}
+				else if(pass.length<10)
+				{
+					alert("please fill correct mobile no..........");
+					return false;
+				}
+
+
+			}
+		</script>
+</head>
+<body>
+	<div class="log">
+	<form name="sg" method="post" onsubmit="display()">
+		<table align="center">
+			<tr>
+				<th><font size="50px">LogIn</font</th>
+			</tr>
+			<tr>
+				<td><font size="5px">Name</font></td>
+			</tr>
+			<tr>
+			<td><input type="text" name="uname" required=""></td>
+			</tr>
+			<tr>
+				<td><font size="5px">Password</font></td>
+			</tr>
+			<tr>
+				<td><input type="password" name="pass" title="pls fill this with at least 10 letters" required=""></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Login" name=""></td>
+			</tr>
+		</table>
+	</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body
+{
+	height: 609px;
+    background: linear-gradient(red,blue);
+    background-repeat: no-repeat;
+}
+form
+{
+	position: relative;
+	top: 100px;
+}
+input
+{
+	height: 20px;
+	width: 200px;
+	border:1px solid red;
+	border-radius: 10px;
+	transition: 0.6 ease;
+}
+input[type=submit]
+{
+	height: 20px;
+	width: 210px;
+	background-color: red;
+}
